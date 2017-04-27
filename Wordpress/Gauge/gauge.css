@@ -1,0 +1,28 @@
+*{transition:all .5s}
+.label{
+  color: #7FFF00;
+  background:black;
+  width:4em;
+  height:1em;
+  display:inline-block;
+  vertical-align:top;
+  border-radius: 100px;
+  text-align: center;
+}
+.bar{
+  background:linear-gradient(#7FFF00, yellow);
+  width:0.1em;
+  height:1em;
+  display:inline-block;
+  vertical-align:top;
+}
+.area {
+  color: #7FFF00;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(#4B0082, #4B3082);
+  width: 15em;
+  height: 13em;
+  border: solid black;
+  margin-left: 4em;
+  padding-left: 3em;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gauge</title>
+	<link rel="stylesheet" type="text/css" href="gauge.css">
+</head>
+<body>
+<div class="area">
+		<h1>My Skill</h1>
+	<div id="skill">
+	  <div class="label">HTML</div>
+	  <div class="bar" id="b1"></div>
+	  <br>
+	  <div class="label">CSS</div>
+	  <div class="bar" id="b2"></div>
+	  <br>
+	  <div class="label">JS</div>
+	  <div class="bar" id="b3"></div>
+	  <br>
+	</div>
+	  <br>
+
+	<button onclick="view()">View</button>
+	<button  onclick="reset()">Reset</button>
+</div>
+
+
+
+<script type="text/javascript">
+	
+function view(){
+	document.getElementById('b1').style.width = "3em"
+	document.getElementById('b2').style.width = "2em"
+	document.getElementById('b3').style.width = "1em"}
+function reset(){
+	document.getElementById('b1').style.width = "0em"
+	document.getElementById('b2').style.width = "0em"
+	document.getElementById('b3').style.width = "0em"}
+</script>
+
+</body>
+</html>

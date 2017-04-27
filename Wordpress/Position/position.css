@@ -1,0 +1,58 @@
+#canvas {
+	background-image: url('bg.jpg');
+	border: solid;
+	width: 880px;
+	height: 588px;
+}
+#text {
+	text-shadow: 3px 1px 0px #424141;
+	margin-top: 95px;
+	margin-left: 128px;
+	color: white;
+	font-size: 41px;
+	width: 7em;
+	height: 10em;
+}
+
+#turist {
+	position: absolute;
+	top: 214px;
+	left: 12px;
+	width: 7em;
+}
+
+#meditation {
+	position: absolute;
+	top: 311px;
+	left: 413px;
+	width: 8em;
+}
+
+#tent {
+	position: absolute;
+	top: 219px;
+	left: -241px;
+	width: 28em;
+	clip: rect(0px,450px,400px,252px)
+}
+
+#batman {
+	position: absolute;
+	top: -23px;
+	left: 500px;
+	width: 19em;
+}
+
+#robin {
+	position: absolute;
+	top: 170px;
+	left: 765px;
+	width: 9em;
+}
+
+#sun {
+	position: absolute;
+	top: 7px;
+	left: 19px;
+	width: 10em;
+}

@@ -1,0 +1,147 @@
+/*========= GAME ==========*/
+html body.game {
+	background-image: url("hawaii-bg.png");
+	background-repeat: no-repeat;
+}
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	margin-top: 4em;
+}
+h2{
+	/*margin-top: 0px;*/
+	text-align: center;
+	margin-bottom: 1em;
+}
+#score {
+	margin-bottom: -2em;
+	margin-left: -9em;
+	position: initial;
+	color: white;
+	text-shadow: 3px 2px 2px #000000;
+	font-size: 24px;
+	font-weight: bold;
+}
+#wrap{
+	background: url("wrap-bg.jpg");
+	background-size: 320px 452px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#gift-wrap{
+	width: 100%;
+	height: 452px;
+	position: relative;
+}
+
+#ready-wrap{
+	display: block;
+	width: 320px;
+	margin-left: 20em;
+	margin-top: 6em;
+}
+.des{
+	text-align: center;
+}
+.start {
+	margin: auto;
+	display: block;
+	font-size: 3em;
+	border: 3px solid #ccc;
+	background: #f75c77;
+	color: white;
+}
+#start-wrap{
+	display: none;
+	width: 320px;
+	margin-left: 20em;
+}
+
+.dagift{
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	opacity: 1;
+	transition: all .5s;
+}
+.dagift iframe{
+	height: 64px;
+}
+#player {
+	width: 64px;
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+}
+#player iframe {
+	height: 100px;
+}
+div#keyin {
+	width: 320px;
+	text-align: center;
+	padding: 1em 0em;
+	margin-top: 26px;
+}
+button.thekey {
+	font-size: 2em;
+	width: 4em;
+	line-height: 2em;
+	margin: 0em 0em;
+	background: #FBF3FF;
+	border: 1px solid darkorchid;
+	border-radius: 8px;
+	font-weight: bold;
+	color: rebeccapurple;
+}
+button#ll{
+
+}
+button#rr{
+
+}
+button {
+	outline: none;
+	cursor: pointer;
+}
+iframe{
+	border: 0;
+	width: 64px;
+}
+
+/*========= PLAYER ==========*/
+div#draw-player {
+	content:url("stitch.gif");
+	width: 64px;
+	position: relative;
+}
+
+/*========= GIFT ==========*/
+
+div#draw-gift-1 {
+	width: 64px;
+	height: 64px;
+}
+div#draw-gift-2 {
+	content:url("coconut2.png");
+	width: 64px;
+	position: relative;
+}
+div#draw-gift-3 {
+	content:url("coconut3.png");
+	width: 64px;
+	position: relative;
+}
+.reset{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#heart {
+    content:url("coconut_cake.png");
+	width: 64px;
+	position: relative;
+}
